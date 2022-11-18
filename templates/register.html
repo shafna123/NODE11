@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid mb-5">
+        <div class="py-5">
+            <h1 class="text-center">REGISTER</h1>
+        </div>
+        <form action="/result">
+            <table class="tab1" cellspacing="6" cellpadding="2">
+                <tr>
+                    <td class="tab1">
+                        <label for="title">Title</label>
+                    </td><td>
+                        <select id="title" name="title" multiple>
+                            <option value="1">Mr</option>
+                            <option value="2">Mrs</option>
+                            <option value="3">Ms</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                <td class="tab2">
+                    <label for="firstname">first name:</label>
+                </td>
+                <td>
+                    <input type="text" id="firstname" name="firstname" placeholder="Your firstname">
+
+                </td></tr>
+                <tr>
+                <td>
+                    <label for="lastname">last name:</label>
+                </td>
+                <td>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your lastname">
+
+                </td></tr>
+               <tr>
+                <td>
+                    
+                        <label for ="Email">Email:</label> 
+                        <input type = "text" name = "email" placeholder = "me@example.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Password"> Password: </label>
+                        <input type = "text" name = "password" placeholder = "password">
+                    
+                </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="gender">Gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="Male" name="gender" value="1" /> Male
+                        <input type="radio" id="Female" name="gender" value="2" /> Female
+                    </td>
+                </tr><tr><td>
+                    <label for="mobile "> Mobile:</label>
+                </td>
+                    <td>
+                    <input type="text"id="Mobile" name="mobile"
+                    placeholder="Your mobile number" rows="5" cols="10" >
+                </td></tr>
+                
+                       
+                <tr>
+                    <td>
+                        <button type ="submit">save</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
